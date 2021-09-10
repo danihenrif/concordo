@@ -1,0 +1,67 @@
+create-user danielhrqs4@yahoo.com senhacorreta daniel henriques
+create-user danielhrqs4@yahoo.com senhacorreta daniel henriques
+login danielhrqs4@yahoo.com senhaincorreta
+login danielhrqs4@yahoo.com.br senhacorreta
+login danielhrqs4@yahoo.com senhacorreta
+disconnect 2
+disconnect 1
+disconnect 1
+create-server 2 naovaidarpracriar :C
+create-server 1 galera-do-counter-strike
+login danielhrqs4@yahoo.com senhacorreta
+create-server 1 galera-do-counter-strike
+create-server 1 galera-do-counter-strike
+create-user rafael@yahoo.com senhacorreta rafael cabral
+login rafael@yahoo.com senhacorreta
+set-server-desc 3 galera-do-counter-strike TAQUINHO É O MAIOR JOGADOR DE CS DO NORDESTE
+set-server-desc 2 galera-do-counter-strike TAQUINHO É O MAIOR JOGADOR DE CS DO NORDESTE
+set-server-desc 1 galera-do-counter-strike TAQUINHO É O MAIOR JOGADOR DE CS DO NORDESTE
+set-server-desc 1 servidor frase qualquer
+set-server-invite-code 3 galera-do-counter-strike counterstrike.com
+set-server-invite-code 2 galera-do-counter-strike counterstrike.com
+set-server-invite-code 1 galera-do-counter-strike counterstrike.com
+create-server 2 valorant
+create-server 2 ead
+create-server 2 liga-das-lendas
+create-server 6 cod
+list-servers 3
+list-servers 2
+list-servers 1
+remove-server 1 ead
+remove-server 2 ead
+remove-server 1 servidor-inexistente
+list-servers 2
+enter-server 2 galera-do-counter-strike codigoerrado
+enter-server 2 galera-do-counter-strike counterstrike.com
+enter-server 1 galera-do-counter-strike
+leave-server 3 galera-do-counter-strike
+leave-server 1 galera-do-counter-strike
+leave-server 2 galera-do-counter-strike
+create-user usuario3@gmail.com 123 socrates
+login usuario3@gmail.com 123
+leave-server 3 galera-do-counter-strike
+enter-server 2 galera-do-counter-strike counterstrike.com
+enter-server 1 galera-do-counter-strike
+enter-server 3 galera-do-counter-strike counterstrike.com
+list-participants 3
+list-participants 1
+list-participants 2
+leave-server 3 galera-do-counter-strike
+create-channel 1 valorant-eca
+create-channel 1 valorant-eca
+create-channel 3 valorant-eca
+list-channels 1
+create-channel 1 lol-mais-ou-menos
+create-channel 2 counter-strike-sim
+list-channels 2
+leave-channel 2
+enter-channel 1 valorant-eca
+enter-channel 2 lol-mais-ou-menos
+enter-channel 2 nao-existe
+leave-channel 2
+leave-channel 1
+enter-channel 2 counter-strike-sim
+send-message 2 Oi-galera
+list-messages 2
+quit
+nao chega ate aqui

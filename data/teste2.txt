@@ -1,0 +1,31 @@
+create-user danielhrqs4@yahoo.com 123 daniel
+login danielhrqs4@yahoo.com 123
+create-server 1 servidor
+enter-server 1 servidor
+create-channel 1 canal1
+enter-channel 1 canal1
+list-channels 1
+send-message 1 oi
+list-messages 1
+create-user daniel2@hotmail.com 12345 UserANÔNIMO
+login daniel2@hotmail.com 12345
+enter-server 2 servidor
+enter-channel 2 canal1
+send-message 2 oi cara, como vai ?
+send-message 1 to bem e vc ?
+send-message 2 to bem também
+send-message 1 que legal, e como você está ?
+send-message 2 já disse q to vem, what about u ? tá bem ?
+send-message 1 to bem também mano, você também tá bem ?
+send-message 2 to bem também, e a familia como tá ?
+send-message 1 tá bem também. A gente se fala outro dia... conversamos muito
+send-message 2 valeu mano, o importante é estar bem. Abraços...
+leave-channel 2
+enter-channel 2 canal1
+leave-server 2 servidor
+enter-server 2 servidor
+list-messages 2
+enter-channel 2 canal1
+list-messages 2
+list-participants 2
+quit
