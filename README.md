@@ -9,7 +9,7 @@
 Com o terminal aberto no diretório em que deseja colocar os arquivos, digite:
 
 ```console
-$ git clone https://github.com/LP12021-1/trabalho-02-danihenrif.git
+$ git clone https://github.com/danihenrif/concordo.git
 ```
 Entre no diretório :
 ```console
