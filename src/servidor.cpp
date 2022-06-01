@@ -52,11 +52,16 @@ string Servidor::getNomesCanaisServidor(){
 }
 
 bool Servidor::buscaUsuarioServidor(int id){
-    std::vector<int>::iterator it = find(participantesIDs.begin(), participantesIDs.end(), id);
-    if(it == participantesIDs.end()){
-        return false;
+    /*std::vector<int>::iterator it = find(participantesIDs.begin(), participantesIDs.end(), id);*/
+    std::vector<int>::iterator it;
+    for( it = participantesIDs.begin(); it != participantesIDs.end() ; it++ ){
+        if(*it == id)
+            return true;
     }
-    return true;
+    /*if(it == participantesIDs.end()){
+        return false;
+    }*/
+    return false;
 }
 
 void Servidor::removeParticipante(int id){

@@ -29,7 +29,7 @@ $ build/concordo
 ```
 Se for rodar com um arquivo .txt, digite :
 ```console
-$ /build/concordo < data/"nome do arquivo.txt"
+$ build/concordo < data/"nome do arquivo.txt"
 ``` 
 
 É importante ressaltar que executando com o arquivo .txt será exposto no terminal apenas a resposta do programa aos comandos.
