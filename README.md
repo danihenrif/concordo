@@ -13,7 +13,7 @@ $ git clone https://github.com/danihenrif/concordo.git
 ```
 Entre no diretório :
 ```console
-$ cd trabalho-02-danihenrif
+$ cd concordo
 ```
 Crie a pasta build (para onde vão os arquivos objetos) com:
 ```console
